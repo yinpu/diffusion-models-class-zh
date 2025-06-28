@@ -1,0 +1,5 @@
+# 忽略数据集
+unit1/huggan/smithsonian_butterflies_subset/
+
+# 忽略模型文件
+unit1/my_pipeline/
