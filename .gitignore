@@ -3,6 +3,7 @@ unit1/huggan/smithsonian_butterflies_subset/
 unit1/mnist/MNIST/
 unit2/huggan/
 unit2/mnist/MNIST/
+unit3/lewtun
 
 # 忽略模型文件
 unit1/my_pipeline/
@@ -10,3 +11,4 @@ unit2/google/
 unit2/my-finetuned-model/
 unit2/OFA-Sys/
 unit3/stabilityai
+unit3/my-dreambooth
