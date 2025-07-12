@@ -28,3 +28,7 @@
 ### Unit 3: Stable Diffusion 模型
 
 - **01_stable_diffusion_introduction.ipynb**: 介绍如何利用现有的 Stable Diffusion pipeline 来生成和修改图像，并了解管线中的关键组件。内容包括使用 `StableDiffusionPipeline` 根据文本生成图像、探索 pipeline 中的核心组件（VAE、tokenizer、text encoder、UNet 和不同的 scheduler），以及使用 Img2Img、修复（Inpainting）和 Depth2Img 等高级编辑功能。
+
+- **02_dreambooth.ipynb**: 介绍 DreamBooth 技术，这是一种强大的个性化微调方法，允许你使用少量（3-5张）特定主体的图像来训练 Stable Diffusion 模型，使其能够在各种场景和姿势中生成该主体的新图像。本笔记本将指导你如何使用 `diffusers` 库实现 DreamBooth 微调，包括准备训练数据、设置训练参数、以及如何在微调过程中保留模型的先验知识。
+
+- **03_stable_diffusion_deep_dive.ipynb**: 深入剖析 Stable Diffusion 模型的内部工作原理。本笔记本将拆解 Stable Diffusion pipeline 的简洁接口，详细解释其背后的代码实现，逐一检视不同组件（如 VAE、UNet、文本编码器等）的职责与作用，帮助你理解整个生成过程，并学习如何根据需求自定义和调整模型行为。
